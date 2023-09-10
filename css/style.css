@@ -1,0 +1,273 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 75px;
+  color: #f0f0f0;
+  line-height: 70px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #0f4c92;
+}
+/* COMMON END */
+
+/* HEADER START */
+header {
+  background-image: url("../images/Group 37.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 35px 0 175px;
+  color: #f0f0f0;
+}
+
+header h1 {
+  margin-top: 200px;
+}
+
+header p {
+  margin-bottom: 100px;
+}
+
+.logotype {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  margin-bottom: 225px;
+}
+
+.btn {
+  background: #ff9728;
+  border: none;
+  padding: 16px 40px;
+  color: #f0f0f0;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* HEADER END */
+
+/* SECTION INFO START */
+.info {
+  background-color: #def0ff;
+}
+
+.container__info {
+  width: 758px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 120px;
+  color: #0f4c92;
+}
+/* SECTION INFO END */
+
+/* ADVANTAGES START */
+img {
+  border-radius: 25px;
+}
+
+.advantages {
+  padding: 85px 0 100px;
+  background-color: #f2f9ff;
+}
+
+.advantages__blocks {
+  width: 1195px;
+  margin: 0 auto;
+}
+
+.advantage__block {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.advantage__description {
+  padding: 80px;
+  padding-left: 80px;
+  padding-top: 65px;
+}
+
+.advantage__block:nth-child(2) img {
+  order: 1;
+}
+
+.advantage__block:nth-child(2) .advantage__description {
+  padding-left: 0px;
+  padding-right: 80px;
+}
+
+.advantage__block img {
+  width: 585px;
+  height: 580px;
+}
+
+.date {
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.date span {
+  font-weight: bold;
+}
+
+.advantage__description p {
+  font-size: 18px;
+  color: #1b1b1b;
+  margin-top: 30px;
+}
+
+.more__info {
+  font-size: 21px;
+  line-height: 24.5px;
+  color: #ffffff;
+  background: #0d599c;
+  border: none;
+  padding: 15px 70px;
+  border-radius: 47px;
+  cursor: pointer;
+}
+/* ADVANTAGES END */
+
+/* RESERVATION START */
+.reservation {
+  padding: 97px;
+  background-color: #b5e4ff;
+  color: #f4f4f4;
+}
+
+.container__reservation {
+  width: 785px;
+  box-sizing: border-box;
+  background: #2b477c;
+  margin: 0 auto;
+  padding: 60px 60px 130px;
+  border-radius: 19px;
+  text-align: center;
+}
+
+.container__reservation p {
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+
+/* RESERVATION END */
+
+/* MAP START */
+.map__section h2 {
+  color: #0f4c92;
+  text-align: center;
+  margin: 75px 0;
+}
+
+.map {
+  width: 100%;
+  height: 355px;
+  border: 5px solid red;
+}
+/* MAP END */
+
+/* FUTOR START */
+.futor {
+  padding-top: 50px;
+  background-color: #0b83be;
+  color: #f0f0f0;
+  padding-bottom: 120px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.logotypes {
+  display: block;
+  margin: 0 auto;
+  width: 333px;
+  height: 105px;
+  left: 517px;
+  top: 47px;
+}
+
+.futor p {
+  width: 705px;
+  margin: 0 auto;
+}
+
+.futor h3 {
+  width: 705px;
+  margin: 0 auto;
+  margin-top: 69px;
+}
+/* FUTOR END */
+
+/* FORM START */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.callback-form {
+  background: linear-gradient(327.75deg, #0080bf 9.35%, #00496c 117.99%);
+  border-radius: 50px;
+  padding: 100px 80px 50px;
+}
+
+.callback-form h2 {
+  color: #f9f9f9;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.callback-form input[type="text"] {
+  width: 350px;
+  border: 1px solid #f7f6f6;
+  background-color: transparent;
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 21px;
+  box-sizing: border-box;
+}
+
+.callback-form input:first-child {
+  margin-right: 15px;
+}
+
+.callback-form input::placeholder {
+  font-size: 18px;
+  color: #b2e3ff;
+}
+
+.callback-form .callback-form__btn {
+  width: 190px;
+  display: block;
+  margin: 0 auto;
+}
+/* FORM END */
