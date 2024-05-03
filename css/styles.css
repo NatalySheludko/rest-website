@@ -16,10 +16,10 @@ html {
 }
 
 h1 {
-  font-size: 40px;
   margin-bottom: 75px;
-  color: #f0f0f0;
+  font-size: 40px;
   line-height: 50px;
+  color: #f0f0f0;
 }
 
 p {
@@ -28,9 +28,9 @@ p {
 }
 
 h2 {
+  margin-bottom: 40px;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 40px;
 }
 
 h4 {
@@ -47,14 +47,14 @@ img {
 }
 
 .btn {
-  background-color: #ff9728;
-  border: none;
   padding: 16px 40px;
-  color: #f0f0f0;
+  border: none;
   font-size: 18px;
   border-radius: 30px;
   cursor: pointer;
   text-decoration: none;
+  color: #f0f0f0;
+  background-color: #ff9728;
 }
 
 .btn:hover,
@@ -106,12 +106,12 @@ img {
 
 /* MOBILE HEADER START */
 header {
-  background-image: url("../images/Sea.jpg");
+  margin: 0 auto;
+  padding: 35px 0 175px;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  margin: 0 auto;
-  padding: 35px 0 175px;
+  background-image: url("../images/Sea.jpg");
   color: #f0f0f0;
 }
 
@@ -158,9 +158,9 @@ header p {
 }
 
 .container__info {
-  text-align: center;
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
   color: #0f4c92;
 }
 /* MOBILE SECTION INFO END */
@@ -215,9 +215,9 @@ header p {
 }
 
 .date {
+  margin-top: 20px;
   font-size: 20px;
   line-height: 23px;
-  margin-top: 20px;
 }
 
 .date span {
@@ -225,21 +225,21 @@ header p {
 }
 
 .advantage__description p {
-  color: #1b1b1b;
   margin: 30px 0px;
+  color: #1b1b1b;
 }
 
 .more__info {
-  font-size: 18px;
-  line-height: 24.5px;
-  color: #ffffff;
-  background-color: #0d599c;
-  border: none;
-  padding: 15px 70px;
-  border-radius: 47px;
-  cursor: pointer;
   display: flex;
   margin: 0 auto;
+  padding: 15px 70px;
+  font-size: 18px;
+  line-height: 24.5px;
+  border: none;
+  border-radius: 47px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #0d599c;
 }
 
 .more__info:hover,
@@ -333,11 +333,11 @@ header p {
 }
 
 .container__reservation {
-  background-color: #2b477c;
   margin: 0 auto;
   padding: 20px 20px 50px;
-  border-radius: 19px;
   text-align: center;
+  border-radius: 19px;
+  background-color: #2b477c;
 }
 
 .container__reservation p {
@@ -369,17 +369,17 @@ header p {
   }
 
   .container__reservation p {
-    font-size: 18px;
     margin-bottom: 70px;
+    font-size: 18px;
   }
 }
 /* DESKTOP RESERVATION END */
 
 /* MOBILE MAP START */
 .map__section h2 {
-  color: #0f4c92;
-  text-align: center;
   margin: 35px 0;
+  text-align: center;
+  color: #0f4c92;
 }
 
 .map {
@@ -403,11 +403,11 @@ header p {
 
 /* MOBILE FUTOR START */
 .futor {
+  padding-bottom: 70px;
   padding-top: 30px;
+  text-align: center;
   background-color: #0b83be;
   color: #f0f0f0;
-  padding-bottom: 70px;
-  text-align: center;
 }
 
 .logotypes {
@@ -422,8 +422,8 @@ header p {
 }
 
 .futor h3 {
-  font-size: 20px;
   margin: 0 auto;
+  font-size: 20px;
 }
 
 .futor-email {
@@ -470,18 +470,18 @@ header p {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  display: none;
   justify-content: center;
   align-items: center;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .callback-form {
-  background: linear-gradient(327.75deg, #0080bf 9.35%, #00496c 117.99%);
-  border-radius: 50px;
   padding: 50px;
+  border-radius: 50px;
+  background: linear-gradient(327.75deg, #0080bf 9.35%, #00496c 117.99%);
 }
 
 .callback-form h2 {
@@ -491,17 +491,17 @@ header p {
 }
 
 .callback-form input[type="text"] {
-  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #f7f6f6;
-  background-color: transparent;
+  width: auto;
   padding: 15px 30px;
-  border-radius: 30px;
   margin-bottom: 15px;
   font-size: 18px;
   line-height: 21px;
+  border-radius: 30px;
+  border: 1px solid #f7f6f6;
+  background-color: transparent;
 }
 
 .callback-form input::placeholder {
