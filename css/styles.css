@@ -24,7 +24,7 @@ h1 {
 
 p {
   font-size: 15px;
-  line-height: 23px;
+  line-height: 26px;
 }
 
 h2 {
@@ -271,6 +271,10 @@ header p {
     margin-bottom: 40px;
   }
 
+  .advantage__description {
+    padding: 0px 30px 30px 30px;
+  }
+
   .advantage__block:nth-child(2) img {
     order: 1;
   }
@@ -280,7 +284,6 @@ header p {
   }
 
   .advantage__block img {
-    padding: 20px 0px;
     width: 385px;
     height: 385px;
   }
@@ -303,7 +306,7 @@ header p {
   }
 
   .advantage__description {
-    padding: 80px;
+    padding: 30px;
   }
 
   .advantage__block:nth-child(2) img {
@@ -311,7 +314,7 @@ header p {
   }
 
   .advantage__block:nth-child(2) .advantage__description {
-    padding: 80px;
+    padding: 30px;
   }
 
   .advantage__block img {
